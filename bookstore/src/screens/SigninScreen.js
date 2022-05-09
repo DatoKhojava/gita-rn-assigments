@@ -30,7 +30,7 @@ function Signin({ navigation }) {
           <TouchableOpacity style={styles.continueButton}>
             <Text
               style={styles.continueButtonText}
-              onPress={() => navigation.navigate("Nomenclature")}
+              onPress={() => navigation.navigate("Drawer")}
             >
               CONTINUE
             </Text>
